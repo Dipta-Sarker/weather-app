@@ -3,7 +3,7 @@ const button = document.getElementById('btn');
 const image = document.getElementById('main-img');
 const weatherDiv = document.querySelector('.weather')
 
-const api = apiKey.my_Api;
+const api = my_Api;
 const url = `https://api.openweathermap.org/data/2.5/weather?appid=${api}&units=metric&q=`;
 
 async function weatherApp(city) {
