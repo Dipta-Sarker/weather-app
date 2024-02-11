@@ -9,7 +9,7 @@ const url = `https://api.openweathermap.org/data/2.5/weather?appid=${api}&units=
 async function weatherApp(city) {
     const res = await fetch(url + city)
     const data = await res.json()
-    console.log(data)
+    
 
     if (inputBox.value == '') {
         alert('Enter Your City Name')
